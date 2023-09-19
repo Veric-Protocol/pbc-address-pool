@@ -131,6 +131,7 @@ pub fn use_vault(
     state
 }
 
+/* 
 #[action(shortname = 0x04)]
 pub fn use_availble_vault(
     context: ContractContext,
@@ -157,6 +158,7 @@ pub fn use_availble_vault(
     assert!(found, "NO AVAILABLE VAULT IN THIS CHAIN");
     state
 }
+*/
 
 #[action(shortname = 0x05)]
 pub fn release_vault(
